@@ -6,10 +6,65 @@
     BACKGROUND COLORS
 **********************/
 
+.white-bg {
+    background-color: #FFFFFF;
+}
+
+.blue-bg {
+    background-color: #0084FD;
+}
+
+.lightblue-bg {
+    background-color: #B5DDFF;
+}
+
+.purple-bg {
+    background-color: #9792E4;
+}
+
+.dark-grey-bg {
+    background-color: #333333;
+}
+
 /********************* 
     TEXT
 **********************/
 
+.white-text {
+    color: #FFFFFF;
+}
+
+.black-text {
+    color: #000000;
+}
+
+.blue-text {
+    color: #0084FD;
+}
+
+.grey-text {
+    color:#5A6E7F;
+}
+
+.orange-text {
+    color:#FDC15F;
+}
+
+/********************* 
+    BUTTONS
+**********************/
+
+.interactive-button {
+    border-radius: 20px;
+    padding: 10px;
+}
+
 /********************* 
     CONTAINERS
 **********************/
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+

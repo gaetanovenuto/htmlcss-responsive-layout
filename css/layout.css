@@ -1,8 +1,38 @@
 /*************************************************** 
     HEADER SECTION
 ****************************************************/
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
 
+header .desktop-menu {
+    display: none;
+}
 
+.destop-menu ul {
+    display: inline-block;
+}
+
+.desktop-menu ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 4px 16px;
+}
+
+.desktop-menu ul li a:hover {
+    color: #C4C4C4;
+}
+
+.desktop-menu ul li a {
+    text-decoration: none;
+}
+
+header .interactive-button {
+    background-color: #FFFFFF;
+}
 
 /*************************************************** 
     MAIN SECTION
@@ -34,9 +64,21 @@
     TABLET (>576px)
 **********************/
 
+@media screen and (min-width: 576px) {
+
+}
 
 
 /********************* 
     DESKTOP (>992px)
 **********************/
 
+@media screen and (min-width: 992px) {
+    header .hamburger-menu {
+        display: none;
+    }
+
+    header .desktop-menu {
+        display: block;
+    }
+}
