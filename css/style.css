@@ -71,7 +71,8 @@
 .main-info .card a, 
 .strategic-planning a,
 .work-with-us a,
-.about-us a {
+.about-us a,
+.footer-top a {
     text-decoration: none;
 }
 
