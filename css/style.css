@@ -50,21 +50,64 @@
     color:#FDC15F;
 }
 
+.purple-text {
+    color: #9792E4;
+}
+
+.text-center {
+    text-align: center;
+}
+
 /********************* 
     BUTTONS
 **********************/
 
 .interactive-button {
-    border-radius: 20px;
-    padding: 10px;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+.desktop-menu ul li a,
+.main-info .card a, 
+.strategic-planning a,
+.work-with-us a,
+.about-us a {
+    text-decoration: none;
 }
 
 /********************* 
     CONTAINERS
 **********************/
 
-.container {
+.container-70 {
     width: 70%;
     margin: 0 auto;
 }
 
+.container-90 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.card {
+    width: 100%;
+    padding: 15px 50px;
+}
+
+.icon {
+    font-size: 75px;
+}

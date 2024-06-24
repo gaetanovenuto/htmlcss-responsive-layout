@@ -1,7 +1,7 @@
 /*************************************************** 
     HEADER SECTION
 ****************************************************/
-header .container {
+header .container-90 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,10 +26,6 @@ header .desktop-menu {
     color: #C4C4C4;
 }
 
-.desktop-menu ul li a {
-    text-decoration: none;
-}
-
 header .interactive-button {
     background-color: #FFFFFF;
 }
@@ -38,7 +34,218 @@ header .interactive-button {
     MAIN SECTION
 ****************************************************/
 
+/********************* 
+    MAIN-INFO SECTION
+**********************/
+.main-info {
+    padding-top: 50px;
+}
 
+.card {
+    margin-top: 40px;
+    width: 100%;
+    margin-bottom: -5px;
+
+}
+
+.card p {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.main-info .card a {
+    padding: 10px 15%;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+
+.main-info .card img {
+    padding-top: 40px;
+}
+
+.row {
+    margin-bottom: 30px;
+}
+
+/********************* 
+    STRATEGIC-PLANNING SECTION
+**********************/
+
+.strategic-planning .container-90 {
+    padding-bottom: 100px;
+}
+
+.strategic-planning .image {
+    padding-top: 50px;
+}
+
+.strategic-planning .info {
+    padding: 50px 10px;
+}
+
+.strategic-planning .info h2 {
+    padding: 30px 0;
+    font-size: 30px;
+}
+
+.strategic-planning .info p {
+    line-height: 30px;
+}
+
+.strategic-planning .card {
+    border-radius: 75px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.strategic-planning h2,
+.strategic-planning .card p {
+    padding: 20px 20px 5px;
+}
+
+.strategic-planning .card p {
+    font-style: italic;
+    font-weight: 100;
+    width: 70%;
+    margin: 0 auto 30px;
+}
+
+.strategic-planning a {
+    padding: 10px 15px;
+    border-radius: 50%;
+}
+
+/********************* 
+    TESTIMONIAL SECTION
+**********************/
+
+.testimonials .container-90 {
+    padding-bottom: 50px;
+}
+
+.testimonials .info {
+    text-align: center;
+}
+
+.testimonials h3,
+.testimonials p {
+    font-weight: 100;
+    padding: 40px 0;
+}
+
+.testimonials p {
+    line-height: 40px;
+}
+
+.testimonials .card i {
+    font-size: 25px;
+}
+
+.testimonials .signature {
+    font-weight: bold;
+    letter-spacing: .1rem;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+.testimonials .card {
+    border-radius: 50px;
+}
+
+
+.testimonials img {
+    width: 50vw;
+    height: 50vw;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/********************* 
+    WORK WITH US SECTION
+**********************/
+
+.work-with-us .container-90 {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.work-with-us .card {
+    text-align: left;
+    border-radius: 30px;
+    padding-bottom: 60px;
+}
+
+.work-with-us .number {
+    font-size: 35px;
+    font-weight: bold;
+    padding: 40px 0;
+}
+
+.work-with-us .title {
+    font-size: 30px;
+}
+
+.work-with-us p {
+    font-weight: 100;
+    line-height: 30px;
+}
+
+.work-with-us a {
+    font-weight: bold;
+    letter-spacing: .2rem;
+    padding: 10px 20%;
+    text-align: center;
+}
+
+/********************* 
+   ABOUT US SECTION
+**********************/
+
+.about-us .container-90 {
+    padding: 60px 0;
+}
+
+.about-us h2:first-of-type{
+    font-size: 40px;
+}
+
+.about-us p {
+    line-height: 30px;
+    padding: 30px 0;
+}
+
+.about-us img {
+    width: 50vw;
+    height: 50vw;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.about-us .image {
+    width: 50vw;
+    height: 50vw;
+    position: relative;
+}
+
+.about-us .image .purple-text {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    font-size: 100px;
+}
+
+.about-us h2:last-of-type {
+    padding: 40px 0;
+    font-size: 40px;
+}
+
+.about-us .interactive-button {
+    padding: 15px 10%;
+}
 
 /*************************************************** 
     FOOTER SECTION
@@ -66,14 +273,48 @@ header .interactive-button {
 
 @media screen and (min-width: 576px) {
 
-}
+    /********************* 
+        MAIN-INFO SECTION
+    **********************/
 
+    .main-info .row {
+        flex-wrap: nowrap;
+    }
+
+    .main-info .col {
+        margin: 0px 10px;
+    }
+
+    .main-info .col-tablet-2-3 {
+        width: calc((2/3 * 100%) - 20px)
+    }
+
+    .main-info .col-tablet-1-3 {
+        width: calc((1/3 * 100%) - 20px)
+    }
+
+    .main-info .card {
+        flex-wrap: wrap;
+    }
+
+    /********************* 
+        STRATEGIC-PLANNING SECTION
+    **********************/
+}
 
 /********************* 
     DESKTOP (>992px)
 **********************/
 
+    /********************* 
+        MAIN-INFO SECTION
+    **********************/
+
 @media screen and (min-width: 992px) {
+    .container-90 {
+        max-width: 70%;
+    }
+
     header .hamburger-menu {
         display: none;
     }
@@ -83,4 +324,29 @@ header .interactive-button {
         
     }
 
+    .main-info .info {
+        padding: 10px;
+        max-width: 60%;
+    }
+
+    .main-info .image {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin-bottom: -10px;
+        max-width: 40%;
+    }
+    
+    .main-info .col-tablet-2-3 .card {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .main-info .image img{
+        padding-top: 0px;
+    }
+
+    /********************* 
+        STRATEGIC-PLANNING SECTION
+    **********************/
 }
