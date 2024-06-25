@@ -179,7 +179,7 @@ header .interactive-button {
 }
 
 .work-with-us .number {
-    font-size: 35px;
+    font-size: 70px;
     font-weight: bold;
     padding: 40px 0;
 }
@@ -358,6 +358,87 @@ header .interactive-button {
     /********************* 
         STRATEGIC-PLANNING SECTION
     **********************/
+
+    .strategic-planning .info h2 {
+        font-size: 50px;
+    }
+
+    /********************* 
+        TESTIMONIALS SECTION
+    **********************/
+
+    .testimonials .info h2 {
+        font-size: 50px;
+    }
+
+    .testimonials .card img {
+        height: 20vw;
+        width: 20vw;
+        margin-left: -30px;
+    }
+
+    .testimonials .card {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .testimonials .card .signature {
+        font-size: 18px;
+    }
+
+    /********************* 
+        WORK WITH US SECTION
+    **********************/
+
+    .work-with-us h2 {
+        font-size: 50px;
+    }
+
+    .work-with-us .container-90 {
+        flex-wrap: wrap;
+    }
+
+    .work-with-us .card {
+        max-width: calc((1/2 * 100%) - 20px);
+        margin: 20px 5px;
+        display: inline-block;
+    }
+
+    /********************* 
+        ABOUT US SECTION
+    **********************/
+
+    .about-us h2:first-of-type {
+        font-size: 60px;
+    }
+
+    .about-us .about-us-text {
+        max-width: 60%;
+    }
+
+    .about-us .about-us-text p {
+        width: 80%;
+    }
+
+    .about-us .about-us-person {
+        max-width: 40%;
+    }
+
+    .about-us .about-us-person img,
+    .about-us .about-us-person .image {
+        width: 30vw;
+        height: 30vw;
+    }
+
+    .about-us .about-us-person h2 {
+        font-size: 30px;
+    }
+
+    .about-us .container-90 {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 /********************* 
