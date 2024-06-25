@@ -22,10 +22,6 @@ header .desktop-menu {
     padding: 4px 16px;
 }
 
-.desktop-menu ul li a:hover {
-    color: #C4C4C4;
-}
-
 header .interactive-button {
     background-color: #FFFFFF;
 }
